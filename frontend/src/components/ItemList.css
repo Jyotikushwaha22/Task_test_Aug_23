@@ -1,0 +1,19 @@
+/* src/ItemList.css */
+.item-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    margin: 4rem auto;
+    max-width: 90%;
+  }
+  
+  .item {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+  }
+  
+  .item img {
+    max-width: 100%;
+  }
